@@ -17,7 +17,7 @@ app.get("/produtos", (req, res)=>{
 });
 
 app.listen(port, () => {
-  console.log('Servidor rodando em http://localhost:${PORT}');
+  console.log('Servidor rodando na porta 3000');
 });
 
 
