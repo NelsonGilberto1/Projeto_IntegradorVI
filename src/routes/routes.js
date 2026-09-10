@@ -1,4 +1,5 @@
-const express = require("express");
+
+/*const express = require("express");
 //o require seria o import do java 
 const router = express.Router();
 
@@ -12,3 +13,4 @@ module.exports = router;
 
 // em java um classe com so uma estanciua se chama singleton.
 //
+*/
