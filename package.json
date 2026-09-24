@@ -1,5 +1,32 @@
 {
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15"
+  }
+}
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
+
+{
+  "scripts":{
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "jest"
   }
 }
